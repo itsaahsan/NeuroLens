@@ -1,0 +1,23 @@
+"""Curated educational topics with source metadata (no fabricated evidence)."""
+LEARN_TOPICS = [
+    {"id": "sleep-focus", "title": "Sleep and concentration",
+     "body": "Short or disrupted sleep is commonly associated with next-day difficulty concentrating. Keeping a consistent sleep schedule and limiting late caffeine/screen time are widely recommended starting points.",
+     "source": "CDC — About Sleep", "url": "https://www.cdc.gov/sleep/about/index.html", "reviewed": "2025-11-01",
+     "category": "sleep"},
+    {"id": "stress-memory", "title": "Stress and everyday forgetfulness",
+     "body": "Periods of high stress or mental overload can make forgetfulness and word-finding lapses more noticeable. Stress-management routines and breaking tasks into smaller steps may help day-to-day functioning.",
+     "source": "NIMH — Stress information", "url": "https://www.nimh.nih.gov/health/topics/stress", "reviewed": "2025-10-15",
+     "category": "mood"},
+    {"id": "tracking-why", "title": "Why tracking patterns matters",
+     "body": "Clinicians often find longitudinal notes more useful than single-day recollections: what happened, how often, how strong, and how it affected daily activities. A two-week timeline is a practical window to bring to a visit.",
+     "source": "NeuroLens curated guidance — general health-literacy information", "url": "", "reviewed": "2026-01-20",
+     "category": "daily_functioning"},
+    {"id": "headaches", "title": "Headaches: what to note",
+     "body": "For headaches it helps to note timing, duration, severity, possible triggers (sleep, hydration, screen time), and what helped. Sudden worst-ever headache or headache with neurological symptoms warrants urgent care.",
+     "source": "MedlinePlus — Headache", "url": "https://medlineplus.gov/headache.html", "reviewed": "2025-09-10",
+     "category": "physical"},
+    {"id": "when-to-seek-care", "title": "When to seek care promptly",
+     "body": "Seek urgent care for emergency warning signs (e.g., facial droop, slurred speech, chest pain, difficulty breathing, seizure, loss of consciousness, thoughts of self-harm). When in doubt, contact your local emergency service.",
+     "source": "MedlinePlus — Emergency guidance", "url": "https://medlineplus.gov/ency/article/001927.htm", "reviewed": "2025-08-01",
+     "category": "physical"},
+]
